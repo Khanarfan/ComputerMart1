@@ -47,4 +47,5 @@ Route::get('dashboard', [AuthController::class, 'dashboard']);
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 Route::resource('products', ProductController::class);
 
+Route::resource('products1', ProductController::class);
 
